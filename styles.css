@@ -341,6 +341,6 @@ hr {
 @media (max-width: 485px) {
  .hero-section {
      flex-direction: column;
-     margin: 50% 5px;
+     margin: 10% 10px;
 }
 
