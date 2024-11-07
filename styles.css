@@ -287,7 +287,7 @@ hr {
     font-size: 1.5em;
 }
 
-.menu-toggle:checked + .hamburger +  .container {
+.menu-toggle:checked + .hamburger +  .right-nav .container {
     display: flex;
 }
     
@@ -296,8 +296,8 @@ hr {
 }
 }
 
-/* Min-width: 486px and Max-width: 1023px */
-@media/* (min-width: 486px) and */(max-width: 1023px) {
+/* Max-width: 1023px */
+@media (max-width: 1023px) {
 .left-nav {
     margin-left: 20px;
 }
