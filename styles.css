@@ -262,11 +262,10 @@ hr {
     .container {
         display: none;
         position: absolute;
-        top: 50%;
-        left: 0;
+        top: 0;
         margin: 0;
         padding: 5px 50px;
-        background-color: whitesmoke;
+        background-color: navy;
         width: 100%;
         height: auto;
         flex-direction: column;
