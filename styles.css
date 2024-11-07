@@ -70,7 +70,7 @@ hr {
 
 /* Hero section */
 .hero-section {
-    margin: 10% 120px;
+    margin: 15% 120px;
     display: flex;
     justify-content: space-around;
 }
@@ -251,45 +251,78 @@ hr {
 
 /* Max-width: 800px */
 @media (max-width: 800px) {
-    .hamburger {
-        display: flex;
-        flex-direction: column;
-        justify-content: right;
-        align-items: end;
-        margin: 0 10px 0 85%;
-    }
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: end;
+    margin: 0 10px 0 85%;
+}
 
-    .container {
-        display: none;
-        position: absolute;
-        top: 0;
-        margin: 0;
-        padding: 5px 50px;
-        background-color: navy;
-        width: 100%;
-        height: auto;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+.container {
+    display: none;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 5px 50px;
+    background-color: navy;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-    .container hr {
-        display: flex;
-    }
+.container hr {
+    display: flex;
+}
 
-    .container-item {
-        margin: 20px 0;
-    }
+.container-item {
+    margin: 20px 0;
+}
     
-    .container-item a {
-        color: black;
-        font-size: 1.5em;
-    }
+.container-item a {
+    color: black;
+    font-size: 1.5em;
+}
 
-    .menu-toggle:checked + .hamburger +  .container {
-        display: flex;
-    }
+.menu-toggle:checked + .hamburger +  .container {
+    display: flex;
+}
     
-    .menu-toggle:checked + .hamburger {
-        z-index: 10;
-    }
+.menu-toggle:checked + .hamburger {
+    z-index: 10;
+}
+}
+
+/* Max-width: 1023px */
+@media (max-width: 1023px) {
+.hero-section {
+    margin: 15% 10px;
+}
+    
+.left-hero-section h1, .left-hero-section h2, .right-about-section h2 {
+    font-size: 2em;
+}
+
+.right-hero-section img {
+    width: 250px;
+}
+
+/* About Section */
+.about-section {
+    margin: 10% 80px;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.left-about-section img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.right-about-section .p2, .contact-us-top-left .p2 {
+    font-size: 1em;
+}  
+}
+
