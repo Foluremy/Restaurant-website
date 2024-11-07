@@ -258,7 +258,7 @@ hr {
     align-items: end;
     margin: 0 10px 0 85%;
 }
-
+    
 .container {
     display: none;
     position: absolute;
@@ -297,31 +297,30 @@ hr {
 
 /* Max-width: 1023px */
 @media (max-width: 1023px) {
-.hero-section {
-    margin: 15% 10px;
+.hero-section, .about-section, .services-body, .menu-body, .contact-us-top, .contact-us-bottom {
+    margin: 15% 20px;
 }
     
-.left-hero-section h1, .left-hero-section h2, .right-about-section h2 {
+.left-hero-section h1, .left-hero-section h2, .right-about-section h2, .services-header h2, .menu-header h2 {
     font-size: 2em;
 }
 
 .right-hero-section img {
     width: 250px;
 }
-
-/* About Section */
+    
 .about-section {
     margin: 10% 80px;
-    flex-direction: column;
-    gap: 50px;
+    gap: 40px;
 }
 
 .left-about-section img {
-    width: 500px;
+    width: 150px;
+    height: 250px;
     border-radius: 10px;
 }
 
-.right-about-section .p2, .contact-us-top-left .p2 {
+.right-about-section .p2, .contact-us-top-left .p2, .services-body-item, .contact-us-top-right p   {
     font-size: 1em;
 }  
 }
