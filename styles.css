@@ -298,6 +298,10 @@ hr {
 
 /* Max-width: 1023px */
 @media (max-width: 1023px) {
+.left-nav {
+    margin-left: 10px;
+}
+    
 .hero-section, .about-section, .services-body, .menu-body, .contact-us-top, .contact-us-bottom {
     margin: 15% 20px;
 }
