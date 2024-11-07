@@ -339,8 +339,25 @@ hr {
 
 /* Max-width: 485px */
 @media (max-width: 485px) {
- .hero-section {
-     flex-direction: column;
-     margin: 10% 10px;
+.hamburger {
+    margin-left: 50%;
+}
+
+.nav {
+    height: 7%;
+}
+    
+.hero-section {
+    flex-direction: column-reverse;
+    margin: 15% 10px;
+}
+
+.right-hero-section img {
+    align-items: right;
+}
+
+.about-section, .services-body {
+    flex-direction: column;
+    margin: 10% 10px;
 }
 
