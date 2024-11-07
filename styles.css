@@ -45,6 +45,12 @@ p, li a, h1, h2, h3 {
     color: green;
 }
 
+hr {
+    display: none;
+    color: black;
+    width: 80%;
+}
+
 .hamburger {
     display: none;
     cursor: pointer;
