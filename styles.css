@@ -208,7 +208,6 @@ hr {
 .contact-us-top {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     gap: 50px;
     margin: 10% 120px 0;
 }
@@ -258,7 +257,7 @@ hr {
     flex-direction: column;
     justify-content: right;
     align-items: end;
-    margin: 0 10px 0 85%;
+    margin: 0 15px 0 85%;
 }
     
 .container {
@@ -297,8 +296,8 @@ hr {
 }
 }
 
-/* Max-width: 1023px */
-@media (max-width: 1023px) {
+/* Min-width: 486px and Max-width: 1023px */
+@media/* (min-width: 486px) and */(max-width: 1023px) {
 .left-nav {
     margin-left: 20px;
 }
@@ -333,6 +332,15 @@ hr {
 
 .contact-us-top {
     text-align: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
+}
+
+/* Max-width: 485px */
+@media (max-width: 485px) {
+ .hero-section {
+     flex-direction: column;
+     margin: 50% 5px;
 }
 
