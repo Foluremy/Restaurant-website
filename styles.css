@@ -340,7 +340,7 @@ hr {
 /* Max-width: 485px */
 @media (max-width: 485px) {
 .hamburger {
-    margin-left: 50%;
+    margin-left: 55%;
 }
 
 .nav {
@@ -353,7 +353,7 @@ hr {
 }
 
 .right-hero-section img {
-    align-items: right;
+    margin-left: 15px;
 }
 
 .about-section, .services-body {
@@ -361,3 +361,16 @@ hr {
     margin: 10% 10px;
 }
 
+.menu-body, .contact-us-bottom {
+    margin: 10% 10px;
+    gap: 30px;
+}
+
+.contact-us-top {
+    gap: 30px;
+}
+
+.copyright {
+    margin: 3% 0;
+}
+}
