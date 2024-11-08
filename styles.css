@@ -264,9 +264,10 @@ hr {
     display: none;
     position: absolute;
     top: 0;
+    left: 0;
     margin: 0;
     padding: 5px 50px;
-    background-color: navy;
+    background-color: whitesmoke;
     width: 100%;
     height: auto;
     flex-direction: column;
@@ -353,7 +354,7 @@ hr {
 }
 
 .right-hero-section img {
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 .about-section, .services-body {
@@ -361,7 +362,12 @@ hr {
     margin: 10% 10px;
 }
 
-.menu-body, .contact-us-bottom {
+.left-about-section img {
+    width: 400px;
+    margin: auto;
+}
+
+.menu-body, .contact-us-bottom, .menu-header {
     margin: 10% 10px;
     gap: 30px;
 }
